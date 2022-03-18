@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background: rgba(0,0,41,0.87);
+    background-image: url("./purple_background.png");
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.banner {
+    background: rgba(42,42,42,0.75);
+    padding: 1.5em;
+    width: 100%;
+    max-width: 500px;
+    margin: 5px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border: none;
+    height: 3em;
+    width: 5em;
+    background: white;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3b3b3b;
+    color: white;
+}
+
+.search_bar {
+    margin: 0.5em;
+    border: none;
+    height: 2.3em;
+    width: 100%;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 110%;
+    outline: none;
+}
+
+.weather {
+    margin: 0.5em;
+    color: whitesmoke;
+}
+
+.city {
+    margin-bottom: 0;
+}
+
+.temp {
+    margin: 0;
+}
+
+.desc {
+    font-size: 110%;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: -4.2em;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-top: -4em;
+    margin-bottom: 2em;
+}
