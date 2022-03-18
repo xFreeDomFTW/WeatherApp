@@ -18,25 +18,25 @@ let weather = {
         this.fetchWeather(document.querySelector(".search_bar").value);
     },
     setIcon: function(icon) {
-        if(icon[0] === 0 && icon[1] === 1){
+        if(icon[0] == 0 && icon[1] == 1){
             return "sun.png";
         }
-        else if(icon[0] === 0 && icon[1] === 2){
+        else if(icon[0] == 0 && icon[1] == 2){
             return "suncloud.png";
         }
-        else if(icon[0] === 0 && (icon[1] === 3 || icon[1] === 4)){
+        else if(icon[0] == 0 && (icon[1] == 3 || icon[1] == 4)){
             return "cloud.png";
         }
-        else if(icon[0] === 0 && icon[1] === 9){
+        else if(icon[0] == 0 && icon[1] == 9){
             return "rain.png";
         }
-        else if(icon[0] === 1 && (icon[1] === 0 || icon[1] === 1)){
+        else if(icon[0] == 1 && (icon[1] == 0 || icon[1] == 1)){
             return "rain.png";
         }
-        else if(icon[0] === 1 && icon[1] === 3){
+        else if(icon[0] == 1 && icon[1] == 3){
             return "snow.png";
         }
-        else if(icon[0] === 5 && icon[1] === 0){
+        else if(icon[0] == 5 && icon[1] == 0){
             return "fog.png";
         }
         else{
